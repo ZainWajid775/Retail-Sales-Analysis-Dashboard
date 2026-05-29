@@ -1,0 +1,5 @@
+# Ignore large generated cleaned dataset
+outputs/cleaned_data.csv
+
+# Keep generated visualizations and small CSVs
+# (explicitly ignored large file only)

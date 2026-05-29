@@ -1,0 +1,10 @@
+Segmentation,Model,Accuracy,Samples,Classes
+High-Value Prediction,Decision Tree,0.8044218946744686,90005,"Low-Value, High-Value"
+High-Value Prediction,Naive Bayes,0.7844974446337308,90005,"Low-Value, High-Value"
+High-Value Prediction,K-Nearest Neighbors,0.8043848603807126,90005,"Low-Value, High-Value"
+Category Preference,Decision Tree,0.6055604785112981,30093,"Mobiles & Tablets, Men's Fashion, Women's Fashion, Appliances, Others"
+Category Preference,Naive Bayes,0.32930881701373504,30093,"Mobiles & Tablets, Men's Fashion, Women's Fashion, Appliances, Others"
+Category Preference,K-Nearest Neighbors,0.6217323881258308,30093,"Mobiles & Tablets, Men's Fashion, Women's Fashion, Appliances, Others"
+Payment Method,Decision Tree,0.6489666666666667,100000,"COD, Online Payment, Card"
+Payment Method,Naive Bayes,0.5546,100000,"COD, Online Payment, Card"
+Payment Method,K-Nearest Neighbors,0.6274,100000,"COD, Online Payment, Card"
