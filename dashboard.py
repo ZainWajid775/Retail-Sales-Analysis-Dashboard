@@ -33,6 +33,13 @@ st.markdown("""
         padding: 10px;
         border-radius: 5px;
     }
+    /* Ensure metric text is visible in both light and dark Streamlit themes */
+    .stMetric, .stMetric * {
+        color: #0D47A1 !important;
+    }
+    .stMetric {
+        background-color: #f5f7fa !important;
+    }
     h1 {
         color: #1565C0;
         font-weight: 600;
