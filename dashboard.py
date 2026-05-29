@@ -93,6 +93,21 @@ st.markdown("""
     .success-box b {
         color: #1B5E20;
     }
+    /* Info box styling was missing and caused default white-on-white text in some themes */
+    .info-box {
+        background-color: #FFFFFF;
+        padding: 15px;
+        border-radius: 10px;
+        border-left: 5px solid #1976D2;
+        margin: 10px 0;
+        color: #0D47A1;
+    }
+    .info-box h3, .info-box h4 {
+        color: #0D47A1;
+    }
+    .info-box b {
+        color: #0D47A1;
+    }
     </style>
 """, unsafe_allow_html=True)
 
